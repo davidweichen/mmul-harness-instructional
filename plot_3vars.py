@@ -56,7 +56,7 @@ plt.plot(code2_time, "b-x")
 #plt.xscale("log")
 #plt.yscale("log")
 
-plt.xlabel("problem_size")
+plt.xlabel("problem_size(NxN)")
 plt.ylabel("MFLOP/s")
 
 varNames = [var_names[1], var_names[2]]
